@@ -5,13 +5,14 @@
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      background: #f0f0f0;
+      background: lightblue;
       padding-top: 50px;
     }
 
     .container {
       max-width: 400px;
       margin: auto;
+	  background:lightseagreen;
     }
 
     #player-form {
@@ -38,7 +39,7 @@
     .cell {
       width: 100px;
       height: 100px;
-      background: #f3bfca;
+      background: lightgreen;
       font-size: 40px;
       display: flex;
       justify-content: center;
@@ -49,10 +50,16 @@
 
     input {
       padding: 8px;
-      margin: 5px;
+      margin: 20px;
+		height:40px;
+		width:50vw;
+		border: 1px solid green;
+		border-radius: 5px;
     }
 
     button {
       padding: 10px 20px;
+	  background:lightgreen;
+		margin-bottom:10px;
       cursor: pointer;
     }
